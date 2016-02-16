@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.1/angular.min.js"></script>
+<script src= "./js/matches.js"></script>
+</head>
+<body>
+<div ng-app="myApp" ng-controller="customersCtrl">
+<table border="1">
+<tr ng-repeat="x in matches">
+<td>{{x.MatchID}}</td>
+<td>{{x.MatchRound}}</td>
+<td>{{x.HomeTeam.HomeTeamName}}</td>
+<td>{{x.AwayTeam.AwayTeamName}} </td></tr>
+</table>
+</div>
+</body>
+</html>

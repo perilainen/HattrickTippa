@@ -1,0 +1,269 @@
+{
+"omgångar":[
+{
+	"omgångNummer": 1,
+	"matcher":
+	{
+		"match1hemma":1,
+		"match1borta":2,
+		
+		"match2hemma":3,
+		"match2borta":4,
+		
+		"match3hemma":5,
+		"match3borta":6,
+		
+		"match4hemma":7,
+		"match4borta":8
+		
+		
+		}
+},
+{
+	"omgångNummer":2,
+	"matcher":
+	{
+		"match1hemma":4,
+		"match1borta":1,
+		
+		"match2hemma":2,
+		"match2borta":7,
+		
+		"match3hemma":6,
+		"match3borta":3,
+		
+		"match4hemma":8,
+		"match4borta":5
+		
+		
+		}
+},
+{
+	"omgångNummer":3,
+	"matcher":
+	{
+		"match1hemma":1,
+		"match1borta":8,
+		
+		"match2hemma":3,
+		"match2borta":5,
+		
+		"match3hemma":4,
+		"match3borta":2,
+		
+		"match4hemma":7,
+		"match4borta":6
+		
+		
+		}
+},
+{
+	"omgångNummer":4,
+	"matcher":
+	{
+		"match1hemma":6,
+		"match1borta":1,
+		
+		"match2hemma":2,
+		"match2borta":3,
+		
+		"match3hemma":5,
+		"match3borta":7,
+		
+		"match4hemma":8,
+		"match4borta":4
+		
+		
+		}
+},
+{
+	"omgångNummer":5,
+	"matcher":
+	{
+		"match1hemma":1,
+		"match1borta":7,
+		
+		"match2hemma":4,
+		"match2borta":5,
+		
+		"match3hemma":3,
+		"match3borta":8,
+		
+		"match4hemma":2,
+		"match4borta":6
+		
+		
+		}
+},
+{
+	"omgångNummer":6,
+	"matcher":
+	{
+		"match1hemma":5,
+		"match1borta":1,
+		
+		"match2hemma":7,
+		"match2borta":3,
+		
+		"match3hemma":6,
+		"match3borta":4,
+		
+		"match4hemma":8,
+		"match4borta":2
+		
+		
+		}
+},
+{
+	"omgångNummer":7,
+	"matcher":
+	{
+		"match1hemma":1,
+		"match1borta":3,
+		
+		"match2hemma":2,
+		"match2borta":5,
+		
+		"match3hemma":4,
+		"match3borta":7,
+		
+		"match4hemma":6,
+		"match4borta":8
+		
+		
+		}
+},
+{
+	"omgångNummer":8,
+	"matcher":
+	{
+		"match1hemma":3,
+		"match1borta":1,
+		
+		"match2hemma":5,
+		"match2borta":2,
+		
+		"match3hemma":7,
+		"match3borta":4,
+		
+		"match4hemma":8,
+		"match4borta":6
+		
+		
+		}
+},
+{
+	"omgångNummer":9,
+	"matcher":
+	{
+		"match1hemma":1,
+		"match1borta":5,
+		
+		"match2hemma":3,
+		"match2borta":7,
+		
+		"match3hemma":4,
+		"match3borta":6,
+		
+		"match4hemma":2,
+		"match4borta":8
+		
+		
+		}
+},
+{
+	"omgångNummer": 10,
+	"matcher":
+	{
+		"match1hemma":7,
+		"match1borta":1,
+		
+		"match2hemma":5,
+		"match2borta":4,
+		
+		"match3hemma":8,
+		"match3borta":3,
+		
+		"match4hemma":6,
+		"match4borta":2
+		
+		
+		}
+},
+{
+	"omgångNummer":11,
+	"matcher":
+	{
+		"match1hemma":1,
+		"match1borta":6,
+		
+		"match2hemma":3,
+		"match2borta":2,
+		
+		"match3hemma":7,
+		"match3borta":5,
+		
+		"match4hemma":4,
+		"match4borta":8
+		
+		
+		}
+},
+{
+	"omgångNummer":12,
+	"matcher":
+	{
+		"match1hemma":8,
+		"match1borta":1,
+		
+		"match2hemma":5,
+		"match2borta":3,
+		
+		"match3hemma":2,
+		"match3borta":4,
+		
+		"match4hemma":6,
+		"match4borta":7
+		
+		
+		}
+},
+{
+	"omgångNummer":13,
+	"matcher":
+	{
+		"match1hemma":1,
+		"match1borta":4,
+		
+		"match2hemma":7,
+		"match2borta":2,
+		
+		"match3hemma":3,
+		"match3borta":6,
+		
+		"match4hemma":5,
+		"match4borta":8
+		
+		
+		}
+},
+{
+	"omgångNummer":14,
+	"matcher":
+	{
+		"match1hemma":2,
+		"match1borta":1,
+		
+		"match2hemma":4,
+		"match2borta":3,
+		
+		"match3hemma":6,
+		"match3borta":5,
+		
+		"match4hemma":8,
+		"match4borta":7
+		
+		
+		}
+}
+]}
