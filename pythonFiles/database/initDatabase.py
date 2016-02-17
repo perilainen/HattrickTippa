@@ -1,11 +1,8 @@
 import sqlite3
-
+import databasesetting
 import os.path
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-db_path = os.path.join(BASE_DIR, "LID785S61")
-
-conn = sqlite3.connect(db_path)
+conn = sqlite3.connect(databasesetting.db_path)
 curr = conn.cursor()
 
 curr.execute("""DROP TABLE matches;""")
