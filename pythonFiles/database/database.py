@@ -8,7 +8,7 @@ conn = sqlite3.connect(databasesetting.db_path)
 
 
 cursor = conn.cursor()
-with open("matches.json") as data_file:
+with open("../matches.json") as data_file:
     data = json.load(data_file)
 
 print data

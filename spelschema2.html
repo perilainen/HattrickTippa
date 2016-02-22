@@ -1,18 +1,57 @@
 <!DOCTYPE html>
+<meta charset="utf-8" />
 <html>
-<head>
-<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.1/angular.min.js"></script>
-<script src= "./js/matches.js"></script>
-</head>
-<body>
-<div ng-app="myApp" ng-controller="customersCtrl">
-<table border="1">
-<tr ng-repeat="x in matches">
-<td>{{x.MatchID}}</td>
-<td>{{x.MatchRound}}</td>
-<td>{{x.HomeTeam.HomeTeamName}}</td>
-<td>{{x.AwayTeam.AwayTeamName}} </td></tr>
-</table>
-</div>
-</body>
+	<head>
+		<!--script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.1/angular.min.js"></script-->
+		<script src = "./js/angular.min.js"></script>
+		<script src= "./js/matches.js"></script>
+		<link rel="stylesheet" type="text/css" href="./css/styles.css">
+	</head>
+	<body>
+
+		<div ng-app="myApp" ng-controller="customersCtrl">
+			<div class ="table">
+				<table border="1">
+					<tr>
+						<th> Spelare</th>
+						<th>Poäng</th>
+					</tr>
+					<tr ng-repeat="data in table.table | orderBy:'-points'">
+						<td>{{data.user}}</td>
+						<td>{{data.points}}</td>
+				</table>
+			</div>
+			<div class = "bets">
+				<table border = "1">
+					<tr>
+						<th>Match</th>
+						<th>Resultat</th>
+						<th ng-repeat="user in bets[0].users"> {{user.user}}</th>
+					</tr>
+					<tr ng-repeat="a in bets">
+						<td>{{a.HomeTeam}}-{{a.AwayTeam}}</td>
+						<td>{{a.result}}</td>
+						<td ng-repeat="user in a.users" class="point{{user.point}}"> {{user.bet}}</td>
+						<!--div>{{user.bet}} </div> <div>{{user.point}} </div></td-->
+
+				</table>
+
+			</div>
+
+			<div class = "matches">
+				<table border ="1">
+
+					<tr ng-repeat="a in matches.matches">
+						<td>{{a[3]}}</td>
+						<td>{{a[1]}}</td>
+						<td>-</td>
+						<td>{{a[2]}}</td>
+						<td>{{a[4]}}</td>
+
+				</table>
+			</div>
+
+			
+		</div>
+	</body>
 </html>
